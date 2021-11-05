@@ -10,9 +10,16 @@ namespace Regex_Last_Name_UC2
     {
         static void Main(string[] args)
         {
+          Console.Write("Enter First name : ");
+            string f = Console.ReadLine();
+            check.firstName(f);
+
+
             Console.Write("Enter last name : ");
-            string firstname = Console.ReadLine();
-            Last_Name.LastName(firstname);
+            string l = Console.ReadLine();
+            check.LastName(l);
+            
+            
         }
     }
 }
