@@ -4,15 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Regex_Last_Name_UC2
+
+namespace Regex
+
 {
     class Program
     {
         static void Main(string[] args)
         {
+
                  Console.WriteLine("Enter a password");
             string w = Console.ReadLine();
             check.password(w);
+
+            
+           
         }
     }
 }
