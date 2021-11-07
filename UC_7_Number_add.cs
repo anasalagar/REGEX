@@ -89,3 +89,26 @@ namespace Regex_Last_Name_UC2
                 Console.ReadLine();
             }
         }
+        
+ public static void password(string pass)
+        {
+            string word = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,}$";      
+            Regex r = new Regex(word);
+
+            if (r.IsMatch(pass))
+            {
+                Console.WriteLine("password is valid");
+                Console.ReadLine();
+            }
+
+            else
+            {
+                Console.WriteLine("password is invalid,please add one number, capital letter,special character ");
+                Console.ReadLine();
+            }
+           
+        }
+
+    }
+
+}
