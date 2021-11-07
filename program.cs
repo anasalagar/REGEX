@@ -2,44 +2,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Regex
+
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Enter your First name : ");
-             string f = Console.ReadLine();
-             check.firstName(f);
 
+            Console.WriteLine("Enter your first name");
 
-             Console.WriteLine("Enter your Last name : ");
-             string l = Console.ReadLine();
-             check.LastName(l);
+            string firstname = Console.ReadLine();
+            FirstName(firstname);
+         
 
-             Console.WriteLine("Enter your Email address : ");
-             string e = Console.ReadLine();
-             check.Email(e);
-
-             Console.WriteLine("Enter your mobile number : ");
-             string p = Console.ReadLine();
-             check.Mobile(p);
-
-             /*Console.WriteLine("Enter password (minimum 8 characters is requird) : ");
-              string w = Console.ReadLine();
-              check.password(w);*/
-
-            /*     Console.WriteLine("Enter Password (first later it should be captical ) : ");
-                   string w = Console.ReadLine();
-                   check.password(w);
-            */
-
-            Console.WriteLine("Enter a password");
+                 Console.WriteLine("Enter a password");
             string w = Console.ReadLine();
             check.password(w);
-           
+
         }
     }
 }
