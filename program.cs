@@ -7,10 +7,6 @@ using System.Threading.Tasks;
 
 namespace Regex
 
-using System.Threading.Tasks;
-
-namespace Regex
-
 {
     class Program
     {
@@ -26,7 +22,7 @@ namespace Regex
                  Console.WriteLine("Enter a password");
             string w = Console.ReadLine();
             check.password(w);
-                 
+
         }
     }
 }
