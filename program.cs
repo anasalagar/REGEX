@@ -20,7 +20,7 @@ namespace Regex
             Console.WriteLine("Enter your first name");
 
             string firstname = Console.ReadLine();
-            UC_1_First_Name .FirstName(firstname);
+            FirstName(firstname);
          
 
                  Console.WriteLine("Enter a password");
